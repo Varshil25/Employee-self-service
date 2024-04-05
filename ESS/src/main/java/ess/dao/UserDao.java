@@ -18,4 +18,6 @@ public interface UserDao {
 	void deleteUser(int id);
 
 	List<User> getAllUsers();
+	
+	User findByUserName(String name);
 }

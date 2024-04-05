@@ -59,26 +59,27 @@ public class LeaveController {
 	}
 
 	@GetMapping("/approveLeave/{id}")
-	public String approveLeave(@PathVariable("id") Integer id, Model model) {
+	public RedirectView approveLeave(@PathVariable("id") Integer id, Model model, HttpServletRequest request) {
 		LeaveApplication leaveApplication = leaveApplicationService.getLeaveById(id);
 
-		if (leaveApplication == null) {
-			return "redirect:/error";
-		}
+		/*
+		 * if (leaveApplication == null) { return "redirect:/error"; }
+		 */
 		leaveApplication.setStatus("Approved");
 		leaveApplicationService.addLeave(leaveApplication);
-		return "showLeaveApplication_form";
+		RedirectView redirectView = new RedirectView();
+		redirectView.setUrl(request.getContextPath() + "/action-leave");
+		return redirectView;
 	}
 
 	@GetMapping("/rejectLeave/{id}")
-	public String rejectLeave(@PathVariable("id") Integer id, Model model) {
+	public RedirectView rejectLeave(@PathVariable("id") Integer id, Model model, HttpServletRequest request) {
 		LeaveApplication leaveApplication = leaveApplicationService.getLeaveById(id);
-		if (leaveApplication == null) {
-			return "redirect:/error";
-		}
 		leaveApplication.setStatus("Rejected");
 		leaveApplicationService.addLeave(leaveApplication);
-		return "showLeaveApplication_form";
+		RedirectView redirectView = new RedirectView();
+		redirectView.setUrl(request.getContextPath() + "/action-leave");
+		return redirectView;
 	}
 
 	@GetMapping("/updateLeaveStatus/{id}")

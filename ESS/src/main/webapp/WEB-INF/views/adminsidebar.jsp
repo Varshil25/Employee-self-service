@@ -447,12 +447,14 @@
 						<li><a href="Communication-module" class="link-name">Communication</a></li>
 					</ul></li>
 
-				<li><a href="#"> <i class="fas fa-chart-line"></i> <span
-						class="link-name">Report and Analytics</span>
+				<li><a href="/ESS/display-report/ESSUserGuide.pdf"> <i
+						class="fas fa-chart-line"></i> <span class="link-name">UserGuide</span>
 				</a>
 
 					<ul class="sub-menu blank">
-						<li><a href="#" class="link-name">Report and Analytics</a></li>
+						<li><a href="/ESS/display-report/ESSUserGuide.pdf"> <span
+								class="link-name">UserGuide</span>
+						</a></li>
 					</ul></li>
 
 				<li>

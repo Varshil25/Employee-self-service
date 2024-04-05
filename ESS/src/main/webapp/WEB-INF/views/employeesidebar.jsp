@@ -372,6 +372,7 @@
 						<li><a href="show-Event">Event </a></li>
 						<li><a href="show-Holiday">Holiday Schedule</a></li>
 						<li><a href="show-Training">Training Details</a></li>
+						<li><a href="/ESS/display-report/ESSUserGuide">UserGuide</a></li>
 					</ul>
 				</li>
 

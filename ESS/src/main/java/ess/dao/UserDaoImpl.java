@@ -28,6 +28,13 @@ public class UserDaoImpl implements UserDao {
 	}
 
 	@Override
+	public User findByUserName(String name) {
+		List<User> u = sessionFactory.getCurrentSession().createQuery("From User WHERE name = :name", User.class)
+				.setParameter("name", name).getResultList();
+		return u.isEmpty() ? null : u.get(0);
+	}
+
+	@Override
 	public void addUser(User user) {
 		Session session = sessionFactory.getCurrentSession();
 		session.save(user);

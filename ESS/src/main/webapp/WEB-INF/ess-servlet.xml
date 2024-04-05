@@ -55,7 +55,8 @@
 				<value>ess.model.Holiday</value>
 				<value>ess.model.LeaveApplication</value>
 				<value>ess.model.LeaveBalance</value>
-				<value>ess.model.TourLeave</value>
+				<value>ess.model.Attendance</value>
+				<value>ess.model.Report</value>
 				<value>ess.model.Communication</value>
 			</list>
 		</property>

@@ -25,6 +25,11 @@ public class UserService {
 	public User findByEmail(String email) {
 		return userDao.findByEmail(email);
 	}
+	
+	@Transactional
+	public User findByUserName(String name) {
+		return userDao.findByUserName(name);
+	}
 
 	public boolean validatePassword(User user, String password) {
 		return user.getPassword().equals(password);
