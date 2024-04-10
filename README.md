@@ -26,14 +26,15 @@ The Employee Dashboard is designed to provide employees with self-service option
 - Get the notification from admin about events, holidays, Training, userGuideBook etc..
 
 
-Login Page 
+## Login Page 
  * Role == Admin --> its Redirect to AdminDashboard 
  * Role == Employee --> its redirect to EmployeeDashboard
 ![image](https://github.com/Varshil25/Employee-self-service/assets/130171937/6f6666b0-91b1-4c9c-91d7-af1a3abb869c)
-
+                                                                                                                                            
+                                                                                                                                            
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-Admin DashBoard
+## Admin DashBoard
 ![image](https://github.com/Varshil25/Employee-self-service/assets/130171937/bd9fd1d7-77e9-4400-8ba8-d4a3b7ec0f4b)
           
 DashBoard Page
@@ -60,7 +61,7 @@ upadte form
 
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-Employee DashBoard
+## Employee DashBoard
 ![image](https://github.com/Varshil25/Employee-self-service/assets/130171937/cd79ce4b-2f4c-4846-a7a7-09aca13ebfa1)
 
 
