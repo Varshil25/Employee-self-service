@@ -51,7 +51,7 @@ Employee Management
 
 Add Employee section
 ![image](https://github.com/Varshil25/Employee-self-service/assets/130171937/460b3a04-9b04-4f3a-b5e9-9328b9d372ef)
-<br>
+<br><br>
 List of Employee their performs Delete and Update Operations
 ![image](https://github.com/Varshil25/Employee-self-service/assets/130171937/364426d4-fb24-4703-8e06-ed06b8d72faf)
 <br>
