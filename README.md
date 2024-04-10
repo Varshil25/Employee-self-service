@@ -35,6 +35,7 @@ Login Page
 Admin DashBoard
 ![image](https://github.com/Varshil25/Employee-self-service/assets/130171937/bd9fd1d7-77e9-4400-8ba8-d4a3b7ec0f4b)
 
+
 Employee DashBoard
 ![image](https://github.com/Varshil25/Employee-self-service/assets/130171937/cd79ce4b-2f4c-4846-a7a7-09aca13ebfa1)
 
