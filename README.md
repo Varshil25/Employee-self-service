@@ -25,6 +25,6 @@ The Employee Dashboard is designed to provide employees with self-service option
 - Time Management for track your session time in your relevent work place using punchIn, punchOut
 - Get the notification from admin about events, holidays, Training, userGuideBook etc..
 
-We are constantly working to improve the ESS application and add new features to make it more useful for both administrators and employees. If you have any feedback or suggestions, feel free to [contact us](mailto:your-email@example.com).
+We are constantly working to improve the ESS application and add new features to make it more useful for both administrators and employees. If you have any feedback or suggestions, feel free to [contact us](pvarshild.25@gmail.com).
 
 Thank you for using the Employee Self-Service (ESS) application!
