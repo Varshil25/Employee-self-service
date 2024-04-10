@@ -51,19 +51,22 @@ The Employee Dashboard is designed to provide employees with self-service option
 
 Add Employee section
 ![image](https://github.com/Varshil25/Employee-self-service/assets/130171937/460b3a04-9b04-4f3a-b5e9-9328b9d372ef)
-&emsp;
+&emsp;</br></br>
 List of Employee their performs Delete and Update Operations
 ![image](https://github.com/Varshil25/Employee-self-service/assets/130171937/364426d4-fb24-4703-8e06-ed06b8d72faf)
-&nbsp;
+&nbsp;</br></br>
 update form
 ![image](https://github.com/Varshil25/Employee-self-service/assets/130171937/b874897a-08bc-4077-82d3-59c58d30d5ac)
-<br><br>
+</br></br>
 
 ## Leave Management
   Leaves Request Details
 ![image](https://github.com/Varshil25/Employee-self-service/assets/130171937/5e17a454-e6a2-4611-8d15-92e0342e5678)
 
-## 
+## Activity Management
+Event 
+![image](https://github.com/Varshil25/Employee-self-service/assets/130171937/d23a9028-0129-4b46-9da1-bb0e3f479779)
+
 
 
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
