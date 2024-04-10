@@ -395,9 +395,7 @@
 
 					<ul class="sub-menu">
 						<li><a href="#" class="link-name">Attendance Management</a></li>
-						<li><a href="#">Web Design</a></li>
-						<li><a href="#">Card Design</a></li>
-						<li><a href="#">Form Design</a></li>
+						<li><a href="daily-attendance">Attendance Details</a></li>
 					</ul>
 				</li>
 
@@ -428,16 +426,6 @@
 
 
 					</ul></li>
-
-				<li><a href="#"> <i class="fas fa-hands-helping"></i> <span
-						class="link-name">Salary and Benefits</span>
-				</a>
-
-					<ul class="sub-menu blank">
-						<li><a href="#" class="link-name">Salary and Benefits</a></li>
-					</ul></li>
-
-
 
 				<li><a href="Communication-module"> <i
 						class="fas fa-comments"></i> <span class="link-name">Communication</span>

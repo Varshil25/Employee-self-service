@@ -354,12 +354,17 @@
 			</div>
 
 			<ul class="nav-list">
-				<li><a href="dashboard"> <i class="fab fa-microsoft"></i> <span
-						class="link-name">Dashboard</span>
+
+
+				<li><a href="dashboard"> <i class="fas fa-microsoft"></i> <span
+						class="link-name">DashBoard</span>
 				</a>
-					<ul class="sub-menu">
-						<li><a href="dashboard" class="link-name">Dashboard</a></li>
+
+					<ul class="sub-menu blank">
+						<li><a href="dashboard" class="link-name">DashBoard</a></li>
 					</ul></li>
+
+
 				<li>
 					<div class="icon-link">
 						<a href="#"> <i class="fas fa-bell"></i><span
@@ -385,9 +390,13 @@
 
 					<ul class="sub-menu">
 						<li><a href="#" class="link-name">Time Attendance </a></li>
-						<li><a href="#">Web Design</a></li>
-						<li><a href="#">Card Design</a></li>
-						<li><a href="#">Form Design</a></li>
+						<li><a href="daily-attendance-id">Daily Attendance</a></li>
+						<!-- <li><a href="#">Attendance Summary</a></li>
+						<li><a href="#">Attendance Details</a></li>
+						<li><a href="#">Shift Schedule</a></li>
+						<li><a href="#">Attendance Corrections</a></li>
+						<li><a href="#">Advanced overtime Application</a></li> -->
+
 					</ul>
 				</li>
 

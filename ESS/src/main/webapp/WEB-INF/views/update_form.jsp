@@ -30,7 +30,7 @@
 	<div class="container mt-4">
 		<div class="row">
 			<div class="col-md-6 offset-md-3">
-				
+
 				<h2 class="text-center">Update Employee</h2>
 
 				<c:if test="${not empty errorMessage}">
@@ -40,8 +40,6 @@
 
 				<form action="${pageContext.request.contextPath }/handle-employee"
 					method="post">
-
-					<input type="text" value="${user.id }" hidden="" name="id" />
 
 					<div class="form-group row">
 						<label class="col-sm-3 col-form-label">Email Id :</label>

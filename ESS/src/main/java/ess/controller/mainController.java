@@ -7,6 +7,7 @@ import java.text.SimpleDateFormat;
 import java.util.List;
 
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpSession;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -39,7 +40,8 @@ public class mainController {
 
 	@RequestMapping(value = "/login", method = RequestMethod.POST)
 	public String UserLogin(@RequestParam String email, @RequestParam String password, @RequestParam String roleString,
-			Model model) {
+			Model model, HttpSession session, HttpServletRequest request) {
+
 		User user = userService.findByEmail(email);
 		StringToRoleConverter stringToRoleConverter = new StringToRoleConverter();
 		Role role = stringToRoleConverter.convert(roleString);
@@ -50,7 +52,12 @@ public class mainController {
 			return "index";
 		}
 
-		if (user != null && userService.validatePassword(user, password) && role != null && role.equals(user.getRole())) {
+		if (user != null && userService.validatePassword(user, password) && role != null
+				&& role.equals(user.getRole())) {
+
+			session = request.getSession();
+			session.setAttribute("userId", user.getId());
+
 			if (user.getRole() == Role.Admin) {
 				model.addAttribute("title", "Admin DashBoard");
 				return "admindashboard";
@@ -64,5 +71,4 @@ public class mainController {
 		return "index";
 	}
 
-	
 }

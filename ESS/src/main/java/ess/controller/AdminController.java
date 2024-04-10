@@ -42,22 +42,30 @@ public class AdminController {
 	}
 
 	@RequestMapping(path = "/handle-employee", method = RequestMethod.POST)
-	public RedirectView addEmployee(@RequestParam("id") int id, @RequestParam("email") String email,
-			@RequestParam("password") String password, @RequestParam("role") Role role,
-			@RequestParam("name") String name, @RequestParam("address") String address,
+	public RedirectView addEmployee(@RequestParam(value = "id", required = false) Integer id,
+			@RequestParam("email") String email, @RequestParam("password") String password,
+			@RequestParam("role") Role role, @RequestParam("name") String name, @RequestParam("address") String address,
 			@RequestParam("position") String position, @RequestParam("gender") String gender,
 			@RequestParam("bloodGroup") String bloodGroup, @RequestParam("dob") String dobString,
 			@RequestParam("number") String number, HttpServletRequest request, Model model) {
 
+		User user = null;
+		if (id != null) {
+			user = userService.getUserById(id);
+			if (user == null) {
+				model.addAttribute("errorMessage", "User not found.");
+				return new RedirectView(request.getContextPath() + "/list-employee");
+			}
+		} else {
+			user = new User();
+		}
+
 		User existingUserWithEmail = userService.findByEmail(email);
-		if (existingUserWithEmail != null && existingUserWithEmail.getId() != id) {
+		if (existingUserWithEmail != null && !existingUserWithEmail.getId().equals(id)) {
 			model.addAttribute("errorMessage", "The email is already in use. Please choose a different email.");
-			// You can add other necessary attributes and return the user to the update form
 			return new RedirectView(request.getContextPath() + "/list-employee?id=" + id);
 		}
 
-		User user = new User();
-		user.setId(id);
 		user.setEmail(email);
 		user.setPassword(password);
 		user.setRole(role);
@@ -76,7 +84,12 @@ public class AdminController {
 			// Handle parsing exception
 		}
 		user.setNumber(number);
-		userService.addUser(user);
+
+		if (id == null) {
+			userService.addUser(user);
+		} else {
+			userService.updateUser(user);
+		}
 		model.addAttribute("addemployeeMessage", "Employee Added Successfully!");
 		model.addAttribute("delay", 2000);
 		model.addAttribute("title", "Add Employee DashBoard");

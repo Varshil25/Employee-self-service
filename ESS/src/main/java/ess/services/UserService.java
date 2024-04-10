@@ -45,6 +45,7 @@ public class UserService {
 		return userDao.getAllUsers();
 	}
 
+	@Transactional
 	public void updateUser(User user) {
 		userDao.updateUser(user);
 	}
