@@ -31,6 +31,7 @@ Login Page
  * Role == Employee --> its redirect to EmployeeDashboard
 ![image](https://github.com/Varshil25/Employee-self-service/assets/130171937/6f6666b0-91b1-4c9c-91d7-af1a3abb869c)
 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 Admin DashBoard
 ![image](https://github.com/Varshil25/Employee-self-service/assets/130171937/bd9fd1d7-77e9-4400-8ba8-d4a3b7ec0f4b)
@@ -43,7 +44,7 @@ DashBoard Page
 ![image](https://github.com/Varshil25/Employee-self-service/assets/130171937/d7e50af7-b19e-4552-833b-52f4f6cbeb70)
 
 
-
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 
 Employee DashBoard
