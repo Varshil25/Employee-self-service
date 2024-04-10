@@ -35,6 +35,16 @@ Login Page
 Admin DashBoard
 ![image](https://github.com/Varshil25/Employee-self-service/assets/130171937/bd9fd1d7-77e9-4400-8ba8-d4a3b7ec0f4b)
 
+DashBoard Page
+![image](https://github.com/Varshil25/Employee-self-service/assets/130171937/36065289-854d-48cf-b7a4-0727d9397af6)
+    In Show Sections: 
+![image](https://github.com/Varshil25/Employee-self-service/assets/130171937/6292b90f-21f9-4e5d-b27e-db3c218a8acb)
+    Display of all Attendance Record 
+![image](https://github.com/Varshil25/Employee-self-service/assets/130171937/d7e50af7-b19e-4552-833b-52f4f6cbeb70)
+
+
+
+
 
 Employee DashBoard
 ![image](https://github.com/Varshil25/Employee-self-service/assets/130171937/cd79ce4b-2f4c-4846-a7a7-09aca13ebfa1)
