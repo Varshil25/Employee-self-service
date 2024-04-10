@@ -37,27 +37,33 @@ The Employee Dashboard is designed to provide employees with self-service option
 ## Admin DashBoard
 ![image](https://github.com/Varshil25/Employee-self-service/assets/130171937/bd9fd1d7-77e9-4400-8ba8-d4a3b7ec0f4b)
           
-DashBoard Page
+## DashBoard Page
 ![image](https://github.com/Varshil25/Employee-self-service/assets/130171937/36065289-854d-48cf-b7a4-0727d9397af6)
 <br>
     In ShowAttendance Sections: 
 ![image](https://github.com/Varshil25/Employee-self-service/assets/130171937/6292b90f-21f9-4e5d-b27e-db3c218a8acb)
-<br>
+&ensp;
     Display of all Attendance Record 
 ![image](https://github.com/Varshil25/Employee-self-service/assets/130171937/d7e50af7-b19e-4552-833b-52f4f6cbeb70)
 <br><br>
 
-Employee Management
+## Employee Management
 
 Add Employee section
 ![image](https://github.com/Varshil25/Employee-self-service/assets/130171937/460b3a04-9b04-4f3a-b5e9-9328b9d372ef)
-<br><br>
+&emsp;
 List of Employee their performs Delete and Update Operations
 ![image](https://github.com/Varshil25/Employee-self-service/assets/130171937/364426d4-fb24-4703-8e06-ed06b8d72faf)
-<br>
+&nbsp;
 update form
 ![image](https://github.com/Varshil25/Employee-self-service/assets/130171937/b874897a-08bc-4077-82d3-59c58d30d5ac)
 <br><br>
+
+## Leave Management
+  Leaves Request Details
+![image](https://github.com/Varshil25/Employee-self-service/assets/130171937/5e17a454-e6a2-4611-8d15-92e0342e5678)
+
+## 
 
 
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
